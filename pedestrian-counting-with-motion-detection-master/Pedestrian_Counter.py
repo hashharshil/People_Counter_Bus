@@ -14,7 +14,7 @@ cnt_up   = 0
 cnt_down = 0
 
 #Source of video
-cap = cv2.VideoCapture('Test Files/example_03.mp4')
+cap = cv2.VideoCapture(0)
 
 #for rescaling the frame
 def rescale_frame(frame, width, height):
